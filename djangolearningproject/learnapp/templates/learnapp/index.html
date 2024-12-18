@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    {% load static %}
+<!-- Link to CSS -->
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="logo">NewsPortal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="container">
+            <div class="news-articles">
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/800x400" alt="News Image">
+                    <h2>Breaking News Title</h2>
+                    <p>Summary of the breaking news. Read the full article to get more information.</p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/800x400" alt="News Image">
+                    <h2>Another News Title</h2>
+                    <p>Summary of another important news. Stay tuned for updates on this topic.</p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="news-item">
+                    <img src="https://via.placeholder.com/800x400" alt="News Image">
+                    <h2>Another News Title</h2>
+                    <p>Summary of another important news. Stay tuned for updates on this topic.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <!-- More articles can go here -->
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NewsPortal. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
